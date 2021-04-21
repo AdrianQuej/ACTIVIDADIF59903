@@ -29,10 +29,13 @@ public class ACTIVIDAD1IF59903 {
         if (año > otroAño){
             diferencia = año - otroAño;
             System.out.println("Han pasado " + diferencia + "años");
-        } else {
+        } else if (año < otroAño){
             diferencia = otroAño - año;
             System.out.println("Faltan " +diferencia + " años");
-            }
+           
+            } else{
+            System.out.println("El año coincide con el año actual");
+        }
         
         
     }
